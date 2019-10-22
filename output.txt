@@ -1,0 +1,25 @@
+CFG =>
+S->AB|BC
+A->BA|a
+B->CC|b
+C->AB|a
+enter a string: 
+CYK matrix :
+SAASC	
+@	SCAAS	
+@	B	B	
+AS	B	SC	AS	
+B	AC	AC	B	AC	
+Parse tree numner 1 :
+S->BC | 
+B->b | C->AB | 
+A->a | B->CC | 
+C->AB | C->a | 
+A->a | B->b | 
+
+Parse tree numner 2 :
+S->AB | 
+A->BA | B->CC | 
+B->b | A->a | C->AB | C->a | 
+A->a | B->b | 
+
